@@ -1,4 +1,3 @@
-
 function doLogin() {
   var username = document.getElementById("Usarname").value;
   var psw = document.getElementById("Password").value;
