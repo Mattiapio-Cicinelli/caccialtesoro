@@ -14,7 +14,7 @@ else {
     },
     body: JSON.stringify({
       "username": username,
-      "password": password
+      "password": psw
     })
   })
   .then(response => response.json()) // converte la risposta in JSON
