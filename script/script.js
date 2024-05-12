@@ -18,7 +18,10 @@ else {
     })
   })
   .then(response => response.json()) // converte la risposta in JSON
-  .then(data => console.log(data)) // stampa i dati
+  .then(data => {
+    console.log(data);
+    window.location.href = "Game1.html";
+  }) // stampa i dati
   .catch((error) => {
     console.error('Errore:', error);
   });
